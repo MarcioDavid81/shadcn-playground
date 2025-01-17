@@ -5,6 +5,7 @@ import { User } from "../_interface/user"
 import { DataTable } from "../data-table"
 import { ArrowUpDown } from "lucide-react"
 import { Button } from "@/components/ui/button"
+import { Checkbox } from "@/components/ui/checkbox"
 
 const columns: ColumnDef<User>[] = [
   {
